@@ -1,0 +1,33 @@
+*****************************Page Object Model********************8
+- POM Based
+- Every time whenever we use any framework POM needs to be followed.
+
+For every page we will create a python file which will only store elements and action methods of that page,
+in test case we will create only test methods.
+
+If any change is required, one need not to change in all test cases. Change will be implement in one python file
+
+
+------------------------------------------------------------------
+*********************Unittest POM Based Project*********************
+    Drivers
+        |
+    pageObjects
+        |
+    TestCases
+        |
+    Reports
+
+--------------------------------------------------------------------
+Test Case :
+----------------
+1. Launch chrome browser
+2. Open URL :
+   http://admin-demo.nopcommerce.com/
+3. Provide User: admin@yourstore.com
+4. Provide Password: admin
+5. Click to login
+6. Expected title :
+   Dashboard / nopCommerce administration
+
+--------------------------------------------------------------------
